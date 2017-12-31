@@ -10,4 +10,4 @@ inputs:
 run:
   dir: service-repo/dotnetpipe
   path: sh
-  args: ["service-repo/dotnetpipe/ci/build.sh"]
+  args: ["ci/build.sh"]
