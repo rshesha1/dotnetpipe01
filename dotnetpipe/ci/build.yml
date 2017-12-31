@@ -1,0 +1,12 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: microsoft/dotnet
+inputs:
+- name: service-repo
+
+run:
+  path: sh
+  args: ["service-repo/ci/build.sh"]
