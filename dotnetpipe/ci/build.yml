@@ -8,5 +8,6 @@ inputs:
 - name: service-repo
 
 run:
+  dir: service-repo/dotnetpipe
   path: sh
   args: ["service-repo/dotnetpipe/ci/build.sh"]
