@@ -1,6 +1,6 @@
 ---
 applications:
-- name: my-pipeline-ghosh
+- name: my-pipeline-ghos
   instances: 1
   memory: 256M
   no-route: true
