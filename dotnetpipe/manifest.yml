@@ -3,5 +3,5 @@ applications:
 - name: my-pipeline-ghos2
   instances:  1
   memory: 256M
-  no-route: true
+  no-route: false
   buildpack: dotnet_core_buildpack_latest
